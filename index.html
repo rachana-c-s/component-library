@@ -12,7 +12,7 @@
 
 <body>
     <h1>Rachana's component library</h1>
-    
+
     <p> I am attending neog.camp and I want to make a library which would make all my look good and consistent.</p>
 
     <hr>
@@ -39,95 +39,99 @@
 
     <h2>center container</h2>
 
-    <div class="container container-center">This is going to be center container.It will go till a given width and center content</div>
+    <div class="container container-center">This is going to be center container.It will go till a given width and
+        center content</div>
     <hr>
 
     <h2>@links</h2>
 
-    <a  class="link primary-link"href="/"">Primary Link</a>
+    <a class="link primary-link" href="/"">Primary Link</a>
 
-    <a class="link secondary-link"href="/">Secondary Link</a> <hr>
+    <a class=" link secondary-link"href="/">Secondary Link</a>
+    <hr>
 
-        <h2>@lists</h2>
+    <h2>@lists</h2>
 
-        <h3 >unodered lists</h3>
+    <h3>unodered lists</h3>
 
-        <ul class="list-non-bullet">
-            <li>Item one</li>
-            <li>Item two</li>
-            <li>Item three</li>
-        </ul>
+    <ul class="list-non-bullet">
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
 
-        <h3>Inline lists</h3>
-        <ul class="list-non-bullet">
+    <h3>Inline lists</h3>
+    <ul class="list-non-bullet">
 
         <li class="list-item-inline">Inline one</li>
         <li class="list-item-inline">Inline two</li>
         <li class="list-item-inline">Inline three</li>
-        </ul
+    </ul <h3>reverse order</h3>
 
-        <h3>reverse order</h3>
+    <ol reversed>
+        <li>milk</li>
+        <li>eggs</li>
+        <li>bread</li>
+    </ol>
+    <hr>
 
-        <ol reversed>
-            <li>milk</li>
-            <li>eggs</li>
-            <li>bread</li>
-        </ol>
-        <hr>
+    <h2>@nav</h2>
 
-        <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="nav-brand">I Am Brand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">product</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
+    </nav>
 
-        <nav class="navigation">
-            <div class="nav-brand">I Am Brand</div>
-            <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link link-active"href="/">home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link"href="/">product</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link"href="/">about</a>
-                </li>
-            </ul>
-        </nav>
+    <hr>
 
-        <hr>
+    <h2>header</h2>
 
-        <h2>header</h2>
+    <header class="hero">
+        <img class="hero-img" src="images.neo/draw.svg" />
+        <h1 class="hero-heading">Common people to become<span class="heading-inverted"> Web Developer</span></h1>
+    </header>
 
-        <header class="hero">
-            <img class="hero-img"src="images.neo/draw.svg" />
-            <h1 class="hero-heading">Common people to become<span class="heading-inverted"> Web Developer</span></h1>
-        </header>
+    <hr>
+    <h2>@section</h2>
 
-        <hr>
-        <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
 
-        <section>
-            <h3>white section</h3>
-            <p>This will have white background </p>
-        </section>
+        </div>
+        <h1>white section</h1>
+        <p>We successfully deployed ThreadSanitizer in the Firefox project to eliminate data races in our remaining C/C++ components. In the process, we found several impactful bugs and can safely say that data races are often underestimated in terms of their impact on program correctness. We recommend that all multithreaded C/C++ projects adopt the ThreadSanitizer tool to enhance code quality.The post Eliminating Data Races in Firefox – A Technical Report appeared first on Mozilla Hacks - the Web developer blog. </p>
+    </section>
 
-        <section>
-            <h3> off white section</h3>
-            <p>This will have gray background </p>
-        </section>
+    <section class="section ow">
+        <div class="container container-center"></div>
+        <h1> off white section</h1>
+        <p>We successfully deployed ThreadSanitizer in the Firefox project to eliminate data races in our remaining C/C++ components. In the process, we found several impactful bugs and can safely say that data races are often underestimated in terms of their impact on program correctness. We recommend that all multithreaded C/C++ projects adopt the ThreadSanitizer tool to enhance code quality.The post Eliminating Data Races in Firefox – A Technical Report appeared first on Mozilla Hacks - the Web developer blog. </p>
+    </section>
 
-        <hr>
+    <hr>
 
-        <h2>@footer</h2>
+    <h2>@footer</h2>
 
-        <footer>
-            <div>
-                some small heading inside footer
-            </div>
-            <ul>
-                <li>socialone</li>
-                <li>socialtwo</li>
-                <li>socialthree</li>
-            </ul>
-        </footer>
+    <footer>
+        <div>
+            some small heading inside footer
+        </div>
+        <ul>
+            <li>socialone</li>
+            <li>socialtwo</li>
+            <li>socialthree</li>
+        </ul>
+    </footer>
 
 
 
